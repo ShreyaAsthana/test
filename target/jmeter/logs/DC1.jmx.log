@@ -1,0 +1,60 @@
+2021-01-11 14:41:00,261 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2021-01-11 14:41:00,296 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2021-01-11 14:41:00,297 INFO o.a.j.JMeter: Setting System property: sun.net.http.allowRestrictedHeaders=true
+2021-01-11 14:41:00,301 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-01-11 14:41:00,301 INFO o.a.j.JMeter: Version 5.3
+2021-01-11 14:41:00,301 INFO o.a.j.JMeter: java.version=1.8.0_271
+2021-01-11 14:41:00,301 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-01-11 14:41:00,302 INFO o.a.j.JMeter: os.name=Windows 10
+2021-01-11 14:41:00,302 INFO o.a.j.JMeter: os.arch=amd64
+2021-01-11 14:41:00,302 INFO o.a.j.JMeter: os.version=10.0
+2021-01-11 14:41:00,302 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-01-11 14:41:00,302 INFO o.a.j.JMeter: java.awt.headless=true
+2021-01-11 14:41:00,303 INFO o.a.j.JMeter: Max memory     =514850816
+2021-01-11 14:41:00,303 INFO o.a.j.JMeter: Available Processors =4
+2021-01-11 14:41:00,311 INFO o.a.j.JMeter: Default Locale=English (United States)
+2021-01-11 14:41:00,311 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2021-01-11 14:41:00,311 INFO o.a.j.JMeter: JMeterHome=C:\Users\shreya\Downloads\dc-jira-load-master\dc-jira-load-master\target\8e0f93cd-fa18-4231-8b03-9b66f303c97b\jmeter
+2021-01-11 14:41:00,312 INFO o.a.j.JMeter: user.dir  =C:\Users\shreya\Downloads\dc-jira-load-master\dc-jira-load-master\target\8e0f93cd-fa18-4231-8b03-9b66f303c97b\jmeter\bin
+2021-01-11 14:41:00,312 INFO o.a.j.JMeter: PWD       =C:\Users\shreya\Downloads\dc-jira-load-master\dc-jira-load-master\target\8e0f93cd-fa18-4231-8b03-9b66f303c97b\jmeter\bin
+2021-01-11 14:41:00,442 INFO o.a.j.JMeter: IP: 10.74.10.56 Name: DESKTOP-PP6JD2V FullName: 10.74.10.56
+2021-01-11 14:41:00,459 INFO o.a.j.s.FileServer: Default base='C:\Users\shreya\Downloads\dc-jira-load-master\dc-jira-load-master\target\8e0f93cd-fa18-4231-8b03-9b66f303c97b\jmeter\bin'
+2021-01-11 14:41:00,470 INFO o.a.j.s.FileServer: Set new base='C:\Users\shreya\Downloads\dc-jira-load-master\dc-jira-load-master\target\jmeter\testFiles'
+2021-01-11 14:41:00,771 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-01-11 14:41:00,819 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-01-11 14:41:00,827 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-01-11 14:41:00,839 INFO o.a.j.s.SaveService: Loading file: C:\Users\shreya\Downloads\dc-jira-load-master\dc-jira-load-master\target\jmeter\testFiles\DC1.jmx
+2021-01-11 14:41:00,936 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-11 14:41:00,937 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-11 14:41:00,937 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-11 14:41:00,937 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-11 14:41:00,937 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-01-11 14:41:00,938 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-01-11 14:41:00,964 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2021-01-11 14:41:00,968 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2021-01-11 14:41:01,048 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-01-11 14:41:01,070 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-01-11 14:41:01,073 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-01-11 14:41:01,073 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-01-11 14:41:01,088 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-01-11 14:41:01,088 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-01-11 14:41:01,887 INFO o.a.j.JMeter: Running test (1610356261887)
+2021-01-11 14:41:02,023 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-01-11 14:41:02,024 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2021-01-11 14:41:02,024 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-01-11 14:41:02,024 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2021-01-11 14:41:02,037 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-01-11 14:41:02,037 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-01-11 14:41:02,042 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-01-11 14:41:02,083 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-PP6JD2V
+2021-01-11 14:41:02,094 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-01-11 14:41:02,100 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-01-11 14:41:02,100 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-01-11 14:41:02,101 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-01-11 14:41:02,101 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-01-11 14:41:02,624 INFO o.a.j.r.Summariser: summary +      1 in 00:00:01 =    1.4/s Avg:   408 Min:   408 Max:   408 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
+2021-01-11 14:41:02,640 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2021-01-11 14:41:02,641 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-01-11 14:41:02,643 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-01-11 14:41:02,644 INFO o.a.j.r.Summariser: summary +      3 in 00:00:00 =  130.4/s Avg:     2 Min:     2 Max:     3 Err:     3 (100.00%) Active: 0 Started: 1 Finished: 1
+2021-01-11 14:41:02,645 INFO o.a.j.r.Summariser: summary =      4 in 00:00:01 =    5.3/s Avg:   104 Min:     2 Max:   408 Err:     4 (100.00%)

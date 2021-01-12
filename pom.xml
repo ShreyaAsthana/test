@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <artifactId>jira-dc-test</artifactId>
+   <groupId>com.lazerycode.jmeter</groupId>
+   <version>3.1.2</version>
+   <packaging>pom</packaging>
+   <description>Jira tests</description>
+
+
+   <build>
+      <plugins>
+         <plugin>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>jmeter-maven-plugin</artifactId>
+            <version>${project.version}</version>
+            <!-- configure different executions of the plugin  -->
+            <executions>
+               <execution>
+                  <id>configuration</id>
+                  <goals>
+                     <goal>configure</goal>
+                  </goals>
+                   <configuration>
+                  <testPlanLibraries>
+                     <artifact>mysql:mysql-connector-java:8.0.16</artifact>
+                 </testPlanLibraries>
+             </configuration>
+               </execution>
+               <execution>
+                  <!--Run Jmeter tests -->
+                  <id>jmeter-test</id>
+                  <goals>
+                     <goal>jmeter</goal>
+                  </goals>
+            
+               </execution>
+            </executions>
+                  <configuration>
+                     <!-- configure which testplans to use -->
+                     <testFilesIncluded>
+                        <testFilesIncluded>DC1.jmx</testFilesIncluded>
+                     </testFilesIncluded>
+                     <!-- Add mysql driver-->
+                     <testPlanLibraries>
+                        <artifact>mysql:mysql-connector-java:8.0.16</artifact>
+                    </testPlanLibraries>
+                     <!-- protocol, server and port of tested webapp -->
+                     <propertiesUser>
+                                <users>${test.users}</users>
+                                <rampup>${test.rampup}</rampup>
+                     </propertiesUser>
+                     <ignoreResultFailures>true</ignoreResultFailures>
+                  </configuration>
+         </plugin>
+      </plugins>
+   </build>
+   <!-- in case we want to use a SNAPSHOT version of the jmeter-maven-plugin -->
+   <pluginRepositories>
+      <pluginRepository>
+         <id>sonatype-snapshots</id>
+         <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      </pluginRepository>
+   </pluginRepositories>
+</project>
